@@ -1,0 +1,28 @@
+Create table realestate.property_tbl
+(
+SlNo	 int,
+Property_Name 	varchar(255),
+Property_Type		varchar(255),
+Address		varchar(255),
+Landmarks	varchar(255),
+City	varchar(255),
+State_code 	varchar(255),
+Country		varchar(255),
+Carpet_area	int,
+Builtup_Area	int,
+Floor	int,
+Beds	int,
+Bathroom	int,
+Balcony		 int,
+BHK_Type	 int, 
+Status	varchar(255),
+Furnished_status	varchar(255),
+Price_per_square_feet	int,
+Year_Built	int,
+Transaction_type	varchar(255),
+Facing	varchar(255),
+Car_Parking	varchar(255),
+Type_of_ownership	varchar(255),
+Booking_amount	int,
+Buy_total_price		 int
+);
